@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Car from './Components/Car/indexCar';
-import Text from './Components/Text/indexText';
+import Blok from './Components';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Car/>
-    <Text/> 
+    <Blok/>
   </React.StrictMode>
 );
 
