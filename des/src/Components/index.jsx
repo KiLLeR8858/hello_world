@@ -1,15 +1,15 @@
-import React from 'react'
-import Car from './Car/indexCar'
-import Text from './Text/indexText'
+import React from "react";
+import Car from "./Car/indexCar";
+import Text from "./Text/indexText";
+import { Component } from "./styleBlok";
 
 const Blok = () => {
   return (
-    <Blok>
-    Blok
-      <Car/>
-      <Text/>
-    </Blok>
-  )
-}
+    <Component>
+      <Car />
+      <Text />
+    </Component>
+  );
+};
 
-export default Blok
+export default Blok;

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Component } from './style'
+import React from "react";
+import { Component } from "./style";
 
 const Car = () => {
   return (
@@ -7,6 +7,6 @@ const Car = () => {
       Car
     </Component>
   )
-}
+};
 
-export default Car
+export default Car;
